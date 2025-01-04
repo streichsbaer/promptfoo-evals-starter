@@ -1,0 +1,7 @@
+description: How many r's are in the word strawberry?
+assert:
+  - type: regex
+    value: "count\\\"\\s*:\\s*3"
+vars:
+  question: |
+    How many r's are in the word strawberry?

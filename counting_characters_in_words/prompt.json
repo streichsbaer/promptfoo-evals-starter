@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "{{ system_instructions }}"
+  },
+  {
+    "role": "user",
+    "content": "{{ question }}"
+  }
+]

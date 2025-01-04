@@ -1,0 +1,7 @@
+description: How many i's are in the word Mississippi?
+assert:
+  - type: regex
+    value: "count\\\"\\s*:\\s*4"
+vars:
+  question: |
+    How many i's are in the word Mississippi?
